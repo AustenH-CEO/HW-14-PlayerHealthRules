@@ -10,6 +10,7 @@ public class Program
     {
         Player player1 = new Player(100);
         Console.WriteLine("Player is in combat");
+        Console.WriteLine("Health: " + player1.Health);
         player1.TakeDamage(50);
         Console.WriteLine("Health: " + player1.Health);
         player1.Heal(50);
