@@ -19,5 +19,8 @@ public class Program
         Console.WriteLine("Health: " + player1.Health);
         player1.TakeDamage(200);
         Console.WriteLine("Health: " + player1.Health);
+
+        // This won't work 
+        // player1.Health = 0;
     }
 }

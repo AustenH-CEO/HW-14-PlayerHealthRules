@@ -15,7 +15,7 @@ namespace PlayerFile
         public int Health
         {
             get { return health; }
-            set
+            private set
             {
                 if (value < 0)
                 {
